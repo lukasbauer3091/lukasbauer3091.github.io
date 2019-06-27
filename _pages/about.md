@@ -3,6 +3,7 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+I am currently studying to be a Computer Engineer from Canada. I have programming experience in C, Python (including libraries such as OpenCV and Keras), Java, VHDL, and Assembly Language Programming. I am not a web developer - but I learn quickly and love problem solving! I have professional experience developing mechatronics undergraduate labs and educational material, I am head on Queen's Merlin Neurotechnology Design Team, and I am currently working as an IT specialist developing corporate resources for a large-scale company-wide cloud migration.
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+This site will soon be updated with interactive features to learn more about my past work and my current goals as a student and engineer.
+
