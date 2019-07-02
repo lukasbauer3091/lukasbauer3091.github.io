@@ -13,7 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Home | Lukas Bauer
+title: Lukas Bauer
+masthead_title: Site Home
 email: lukas.bauer.j@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   UNDER CONSTRUCTION! The personal site of Lukas Bauer - Computer Engineering Student at Queen's University
