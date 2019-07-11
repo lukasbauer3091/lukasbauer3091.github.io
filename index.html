@@ -1,7 +1,73 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
+# majority of lines from template kept for reference as I continue building the site
+
+layout: splash
 author_profile: true
+title: "Welcome to the personal site of Lukas Bauer"
+date: 2019-07-19T11:48:41-04:00
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/header11.jpg
+ # actions:
+  #  - label: "Download"
+   #   url: "https://github.com/mmistakes/minimal-mistakes/"
+  # caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+excerpt: "This website was built to showcase my professional work and current projects. It is currently under construction."
+
+#intro: 
+ # - excerpt: 'Insert description here about myself.' #`type="center"`
+feature_row:
+  - #image_path: assets/images/unsplash-gallery-image-1-th.jpg
+    alt: "Placeholder for image 1"
+    title: "Professional Resume"
+    excerpt: "This is some sample content."
+    url: "resume/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - #image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+    #image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
+    alt: "Placeholder for image 2"
+    title: "Who am I?"
+    excerpt: "This is some sample content."
+    url: "about/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - #image_path: /assets/images/unsplash-gallery-image-3-th.jpg
+    title: "What am I currently up to?"
+    excerpt: "This is some sample content."
+    url: "posts/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"    
+
+#feature_row2:
+ # - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+  #  alt: "placeholder image 2"
+   # title: "Placeholder Image Left Aligned"
+   # excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
+   # url: "#test-link"
+   # btn_label: "Read More"
+   # btn_class: "btn--primary"
+
+#feature_row3:
+ # - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+ #   alt: "placeholder image 2"
+ #   title: "Placeholder Image Right Aligned"
+ #   excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
+ #   url: "#test-link"
+ #   btn_label: "Read More"
+ #   btn_class: "btn--primary"
+
+#feature_row4:
+ # - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+ #   alt: "placeholder image 2"
+ #   title: "Placeholder Image Center Aligned"
+ #   excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
+ #   url: "#test-link"
+ #   btn_label: "Read More"
+ #   btn_class: "btn--primary"
 ---
+
+{% include feature_row id="intro" type="center" %}
+
+{% include feature_row %}
