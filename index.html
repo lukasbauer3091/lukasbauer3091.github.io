@@ -1,9 +1,9 @@
 ---
-# majority of lines from template kept for reference as I continue building the site
+
 
 layout: splash
 author_profile: true
-title: "Lukas Bauer"
+title: "Home"
 date: 2019-07-19T11:48:41-04:00
 header:
   overlay_color: "#000"
@@ -14,21 +14,12 @@ header:
       url: "/resume"
     - label: "Contact Me"
       url: "/contact"
-  # caption: "Photo credit: (https://unsplash.com)" 
-excerpt: "Computer Engineer, Neurotech Advocate, Outdoor Enthusiast"
+excerpt: "Computer Engineering Student, Neurotech Educator, Technology Advocate, Outdoor Enthusiast"
+# add in team lead?
 
-intro: 
-  #- title: "Welcome to the home page of my personal site!" 
-  
-  - excerpt: "# Welcome to the home page of my personal site!
-  
-  Below you will find links to learn a little more about who I am, my goals and passions, and what I am currently working on. Please feel free to contact me or connect on LinkedIn if you have any questions or just want to speak!
-  
-  
-  **Please note: I am currently seeking a 12 month internship starting May 2020!**"
 
 feature_row:
-  - image_path: assets/images/propic.jpg
+  - image_path: assets/images/resumepic.jpg
     alt: "Placeholder for image 1"
     title: "Professional Resume"
     excerpt: "Read about my past work experience, school involvement, and qualifications. The original employer experience."
@@ -36,10 +27,9 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/images/grouppic.JPG
-    #image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
     alt: "Placeholder for image 2"
     title: "Who am I?"
-    excerpt: "Learn about my goals, personality, and what I love doing. Basically digital speed-dating."
+    excerpt: "Learn about my goals, personality, and what I love doing. Basically digital speed-dating. <br> <br>"
     url: "about/"
     btn_label: "Read More"
     btn_class: "btn--primary"
@@ -50,34 +40,19 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn--primary"    
 
-#feature_row2:
- # - image_path: /assets/images/propic.jpg
- #   alt: "placeholder image 2"
- #   title: "Placeholder Image Left Aligned"
- #   excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
- #   url: "posts/"
- #   btn_label: "Read More"
- #   btn_class: "btn--primary"
+intro:
+  - image_path: /assets/images/bordercircle.png
+    alt: "placeholder image of circular picture"
+    title: "Hello and welcome to my site!"
+    excerpt: "Whether you stumbled upon this site or arrived to it through a shared link - congratulations you have made it! I am a third year Computer Engineering student at Queen's University in Kingston, Canada. My passion is in the development and education of digital technologies with intent to increase its accessibility towards industry application and the general public. On this site you will find my resume as well as additional informal information that I believe is necessary to paint an accurate picture of myself as a person. And as always, feel free to contact me through email or LinkedIn - I would love to talk!
 
-#feature_row3:
-#  - image_path: /assets/images/dll-workshop.png
-#    alt: "placeholder image 2"
-#    title: "Placeholder Image Right Aligned"
-#    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
-#    url: "#test-link"
-#    btn_label: "Read More"
-#    btn_class: "btn--primary"
-
-#feature_row4:
- # - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
- #   alt: "placeholder image 2"
- #   title: "Placeholder Image Center Aligned"
- #   excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
- #   url: "about/""
- #   btn_label: "Read More"
- #   btn_class: "btn--primary"
+    ## Please note: I am currenty seeking 12 month internship opportunities starting May 2019"
+    url: "contact/"
+    btn_label: "Contact"
+    btn_class: "btn--primary"
 ---
+{% include feature_row id="introline" %}
 
-{% include feature_row id="intro" type="center" %}
+{% include feature_row id="intro" type="left" %}
 
 {% include feature_row %}

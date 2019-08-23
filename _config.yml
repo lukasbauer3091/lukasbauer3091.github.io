@@ -13,7 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Lukas Bauer
+
+title: lukasbauer.ca
 masthead_title: Site Home
 email: lukas.bauer.j@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
@@ -38,14 +39,14 @@ include:
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+ #exclude:
+  # - Gemfile
+  # - Gemfile.lock
+  # - node_modules
+  # - vendor/bundle/
+  # - vendor/cache/
+  # - vendor/gems/
+  # - vendor/ruby/
 
 # Plugins (previously gems:)
 plugins:
@@ -58,7 +59,7 @@ plugins:
 
 author:
   name   : "Lukas Bauer"
-  avatar : "/assets/images/maintenance.jpg"
+  avatar : "/assets/images/bordercircle.png"
   bio    : "Site under construction!"
     #"Computer Engineering Student and Director of Training for Queen's Merlin Neurotechnology <br/><br/>Passionate about developing accessible applications for cutting-edge technology."
   links:
